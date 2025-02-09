@@ -2,7 +2,6 @@
     [Id]            INT             IDENTITY (1, 1) NOT NULL,
     [UserId]        INT             NOT NULL, 
     [PasswordHash]  VARCHAR (MAX)   NOT NULL,
-    [CreatedDate]   DATETIME        NOT NULL,
     [Enabled]       BIT             DEFAULT (1) NOT NULL,
     [IUser]         VARCHAR (25)    NOT NULL,
     [IDate]         DATETIME        NOT NULL,
